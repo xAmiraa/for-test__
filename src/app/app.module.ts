@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './task1/nav/nav.component';
 import { Nav2Component } from './task1/nav2/nav2.component';
+import { ForTestComponent } from './task1/for-test/for-test.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { Nav2Component } from './task1/nav2/nav2.component';
     AppComponent,
     NavComponent,
     Nav2Component,
+    ForTestComponent,
 
   ],
   imports: [
